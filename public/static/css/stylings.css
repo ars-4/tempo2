@@ -1,0 +1,109 @@
+@import url('./bootstrap.min.css');
+@import url('./fonts/stylesheet.css');
+
+body {
+    background-color: #1a1a1a !important;
+    font-family: 'Rubik' !important;
+    overflow-x: hidden;
+    color: #c3c3c3;
+}
+
+#nav {
+    padding: 20px;
+    overflow-x: scroll;
+    scrollbar-width:none;
+    border-bottom: 1px solid #242424;
+}
+#nav::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #42b893;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #1a1a1a;
+}
+
+
+
+.home {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 45px;
+}
+
+.home p {
+    font-size: 24px;
+}
+.home .image {
+    background-color: #42b893;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 4px;
+}
+.home .image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+}
+
+
+
+
+.about {
+    text-align: center;
+}
+.about h1 {
+    padding: 36px;
+}
+.about .row {
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.about img {
+    width: 100%;
+}
+
+
+.photography {
+    text-align: center;
+}
+.photography .row {
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.photography h1 {
+    padding: 36px;
+}
+.photography img {
+    width: 100%;
+}
+
+
+.contact {
+    text-align: center;
+    padding: 35px;
+}
+.contact .links {
+    display: inline;
+}
+.contact .links a {
+    color: #fff;
+    padding: 20px;
+    margin: 2px;
+    font-size: 34px;
+}
+.contact .links a span {
+    font-size: 34px;
+}
+
